@@ -4,7 +4,9 @@
  * Description:
  *      This is a js file used only for the reporting cards.
  */
-
+var myObject = {
+    Api: {} // Or whatever the expected structure is
+  };
 function GetCustomersList() {
     $('#admin_customer').show()
     getFromAPI({

@@ -41,10 +41,16 @@
 <script src="<?= ($BASE) ?>/ui/dist/js/app.min.js" type="text/javascript"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?= ($BASE) ?>/ui/dist/js/pages/dashboard.js" type="text/javascript"></script>
-<script src="<?= ($BASE) ?>/ui/dist/js/pages/reports.js" type="text/javascript"></script>
+
+<!-- ADD TOASTR UI -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 <!-- DATA TABES SCRIPT -->
 <script src="<?= ($BASE) ?>/ui/plugins/datatables/jquery.dataTables.min.js" type="text/javascript"></script>
 <script src="<?= ($BASE) ?>/ui/plugins/datatables/dataTables.bootstrap.min.js" type="text/javascript"></script>
+<script src="<?= ($BASE) ?>/ui/dist/js/pages/reports.js" type="text/javascript"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?= ($BASE) ?>/ui/dist/js/myscript.js" type="text/javascript"></script>
 
